@@ -1,0 +1,110 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="BeautySalon.Data.AuthHistory">
+    <Position X="11" Y="4" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAADAAAEAAAAAAAAAAAAAAgAAAAAAAQAAAAAAAAAAAA=</HashCode>
+      <FileName>Data\AuthHistory.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BeautySalon.Data.BeautySalonBaseEntities">
+    <Position X="4" Y="1" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAADAAAAAAAAAACBUAAAAAAAGAAAQAAAAAAAAAAgSgQ=</HashCode>
+      <FileName>Data\BeautySalonBaseModel.Context.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BeautySalon.Data.Category">
+    <Position X="7.5" Y="1" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAACAAAAAAAgAAQAAAAAAAQAAAAAAAAAAAAAAAAAAgA=</HashCode>
+      <FileName>Data\Category.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BeautySalon.Data.Client">
+    <Position X="9.25" Y="1" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAACAGAAACAAAACAQAAAAAAAAQAIEAACAAAAIAAAAAg=</HashCode>
+      <FileName>Data\Client.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BeautySalon.Data.ClientService">
+    <Position X="11" Y="1" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAACACAAAAAAAAAAgAAAABAACAAAQAABAAAAAAACAAQ=</HashCode>
+      <FileName>Data\ClientService.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BeautySalon.Data.ClientServiceView">
+    <Position X="5.75" Y="1" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAACAAAAAAAAAAQAAAAAABAAAAAAQAAJAAAAAAAAAAA=</HashCode>
+      <FileName>Data\ClientServiceView.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BeautySalon.Data.Employee">
+    <Position X="2.25" Y="1" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAACAGAAAAAAAAQAQAAAAAAACAAAAAAAAAAAAAAAAAg=</HashCode>
+      <FileName>Data\Employee.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BeautySalon.Data.Gender">
+    <Position X="12.75" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAACAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAQ=</HashCode>
+      <FileName>Data\Gender.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BeautySalon.Data.Role">
+    <Position X="9.25" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAADAAAAAAAAAAQAAAAAAAQAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Data\Role.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BeautySalon.Data.Service">
+    <Position X="5.75" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAACAAAAAAAgABAAQAAAABQACAAAAAAAAAAAAAAAAgA=</HashCode>
+      <FileName>Data\Service.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BeautySalon.Data.ServiceCategory">
+    <Position X="7.5" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAACACAAAAAAAgAAAAAAAAAAAAAAQAAAAAAAAAAACAA=</HashCode>
+      <FileName>Data\ServiceCategory.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BeautySalon.Data.User">
+    <Position X="12.75" Y="1" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAACAEIAAAAAAAAAEAAAAAAAACAAAAACAAAQAAAAQAg=</HashCode>
+      <FileName>Data\User.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BeautySalon.Discount.Discount">
+    <Position X="2.25" Y="4" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAIAAAAAAAAAAAAAAAAAAAAAAIgAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Discount\Discount.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="BeautySalon.Manager">
+    <Position X="14.5" Y="1" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAEAAAAAAEAAAEAAAAAAAAAAAAAAAAAAQBAAAAAAAA=</HashCode>
+      <FileName>Manager.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Interface Name="BeautySalon.Discount.IDiscount">
+    <Position X="2.25" Y="5.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAIAAAAAAAAAAAAAAAAAAAAAAIgAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Discount\IDiscount.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

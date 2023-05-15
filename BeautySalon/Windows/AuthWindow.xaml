@@ -1,0 +1,39 @@
+﻿<Window x:Class="BeautySalon.AuthWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:BeautySalon"
+        mc:Ignorable="d"
+        Title="Авторизация" Height="450" Width="250" ResizeMode="NoResize" WindowStartupLocation="CenterScreen" >
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="140"></RowDefinition>
+            <RowDefinition Height="*"></RowDefinition>
+            <RowDefinition Height="*"></RowDefinition>
+            <RowDefinition Height="*"></RowDefinition>
+        </Grid.RowDefinitions>
+        <Border BorderThickness="0,0,0,1" BorderBrush="Black" HorizontalAlignment="Center" Width="175">
+        <Grid Grid.Row="0">
+            <Grid.RowDefinitions>
+                    <RowDefinition Height="*"></RowDefinition>
+                </Grid.RowDefinitions>
+                <TextBlock Text="Авторизация" Grid.Row="1" TextAlignment="Center" FontSize="28" VerticalAlignment="Center"></TextBlock>
+            </Grid>
+        </Border>
+        <Grid Grid.Row="1" Height="60">
+            <TextBlock Text="Введите логин" FontSize="18" HorizontalAlignment="Center" VerticalAlignment="Top"></TextBlock>
+            <TextBox Name="txtBoxLogin" VerticalAlignment="Bottom" TabIndex="1" MaxLength="50"/>
+        </Grid>
+        <Grid Grid.Row="2" Height="60">
+            <TextBlock Text="Введите пароль" FontSize="18" HorizontalAlignment="Center" VerticalAlignment="Top" Margin="0,0,0,5"></TextBlock>
+            <PasswordBox FontFamily="Password" Name="txtBoxPassword" VerticalAlignment="Bottom" MaxLength="50" ></PasswordBox>
+            <TextBox x:Name="txtBoxPasswordShow" Margin="38,25,37,0" Visibility="Collapsed"/>
+            <CheckBox HorizontalAlignment="Right" VerticalAlignment="Bottom" Name="checkBoxShowPass"
+                          Checked="checkBoxShowPass_Checked" Unchecked="checkBoxShowPass_Unchecked"
+                          Margin="0,0,40,7"
+                          Style="{StaticResource myCheckBoxStyle}"/>
+        </Grid>
+        <Button Name="btnLogin" Grid.Row="3" Content="Войти" FontSize="20" Click="btnLogin_Click" ></Button>
+    </Grid>
+</Window>
